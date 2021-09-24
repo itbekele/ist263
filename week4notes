@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>unit 4 forms</title>
+        </head>
+        <body> 
+            <!-- labels are associated with form tags by the value 
+            in the for attribute in label, and the id attribute in the form tag-->
+            <form action='itbekele@syr.edu' method='POST>
+                <label for='fullname'> Enter FULL NAME:</label>
+                <inpute type=''text''id=''fullname'' name=fname'
+
+                <label for=''complaint'>Describe Your Complaint</label>
+            <textarea id='complaint' name='complaint'>Enter your complaint here</textarea>
+
+            <br>
+            <!-- radio buttons are linked together using the same value for name all the labels for attribute values must be unique-->
+            <p> 
+                <input>How angry are you?</p>
+                <inpute type= 'radio' id='angry1'name='angry'value='very angry'></inpute>
+                <label for='angry1'>very angry</label>
+                <br>
+                <input type= 'radio' id= 'angry2'name = 'contactmethond'>
+                <option value= 'phone'>Phone</option>
+                <
+            </form>
+            
+            </p>
+            
+            
+        </body>
+
+   
