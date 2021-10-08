@@ -1,5 +1,7 @@
-body {Arial: sans-serif; }
-h1, h2 {
-    color:magenta; 
-.special {color: purple} 
-.evenrow {color: blue}
+body {font-family: Arial, Helvetica, sans-serif} 
+h1, h2 { 
+    color:aqua
+}
+.evenrow { 
+    color: burlywood;
+}
