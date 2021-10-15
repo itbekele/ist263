@@ -1,0 +1,24 @@
+body { 
+    color: #113CFC; 
+    background-color: #BCCC91;
+
+}
+h1 { 
+    color: #091353
+}
+
+text { 
+    color: #191A19 
+}
+links { 
+    color: #1597E5;
+}
+nav { 
+    background-color:#BCCC91 ;
+}
+nav a { 
+    color: #1597E5;
+}
+nav a:hover {background-color: #1597E5;}
+nav {padding: 10px;}
+nav {margin-bottom: 30px} 
