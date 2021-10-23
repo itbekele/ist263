@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>contact</title>
+        <link rel='stylesheet' href='stylesheet2.css'>
+    <style> 
+        .address {float: left; margin-left: 20px;}
+        .links {float: right; margin-right: 20px; margin-left: 40px;}
+        .clear {clear: both;}
+        .firstrow {display: flex; background-color: rgb(176, 135, 243); border-radius: 1em;}
+        .secondrow {display: flex; background-color: rgb(125, 211, 140); border-radius: 1em;}
+        .firstrow, .secondrow {padding: 20px; margin: 20px;}
+        .googlemap, .contactform {margin: 20px; }
+        .h1 {margin-left: 20px;}
+    </style>
+    </head> 
+
+<body> 
+    <nav> 
+        <a href="index.html">Home |</a>
+        <a href='skills.html'>Skills |</a>
+        <a href='contact.html'>Contact</a>
+
+    </nav>
+    <h1>Contact</h1>
+    <div class="firstrow"> 
+        <div class="address"> 
+<p>Isabel Bekele</p>
+    9 Blythe Drive
+     Peckville PA, 18452.
+    </div>
+
+    <div class="links"> 
+    <p> 
+        <a href='mailto:itbekele@syr.edu'>itbekele@syr.edu</a>' 
+    </p>
+    <img src='../images/logo-sized.png' alt=linkedinlogo> 
+    <a href=https://www.linkedin.com/in/isabelbekele></a>
+    </div> 
+    </div>
+    
+<div class="clear"></div> 
+<div class='secondrow'> 
+    <div class="googlemap"> 
+        <p>
+             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11955.357910726007!2d-75.59705346346124!3d41.48607966808188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c4d09cfa5f9b71%3A0xa8cfe176db73fd05!2s9%20Blythe%20Dr%2C%20Peckville%2C%20PA%2018452!5e0!3m2!1sen!2sus!4v1631808785357!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </p>
+    </div>
+    <div class="contactform"> 
+<h2> Contact Me</h2>
+
+    <form action= 'mailto:itbekele@syr.edu' method='post'>
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br>
+        <label for='lname'>Last name:</label><br>
+       
+        <input type='text' id='lname' name='lnanme'>
+        <p>Are you interested in connecting?:</p>
+  <input type="radio" id="age1" name="age" value="30">
+  <label for="age1">Yes</label><br>
+  <input type="radio" id="age2" name="age" value="60">
+  <label for="age2">No</label><br>  
+  <input type="radio" id="age3" name="age" value="100">
+  <label for="age3">Maybe</label>
+  <input type="submit" value="send form">
+    </form>
+    </div>
+</body>
+</html> 
