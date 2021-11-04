@@ -1,0 +1,31 @@
+body { 
+    color: #113CFC; 
+    background-color: #BCCC91;
+
+}
+h1 { 
+    color: #091353
+}
+
+text { 
+    color: #191A19 
+}
+link { 
+    color: #69DADB;
+}
+nav { 
+    background-color:#BCCC91 ;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+nav a { 
+    color: #1597E5;
+}
+nav a:hover {background-color: #C37B89;}
+
+.quote {float: right} 
+
+img {float: right} 
+
+.email {float: right;}
