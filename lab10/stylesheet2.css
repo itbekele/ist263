@@ -33,5 +33,4 @@ img {float: right}
 .originalimage {max-width: 100%;}
 .mapandform {flex-wrap: 50%;}
 
-
-@media only screen and (max-width: 768px) {nav a {width:100%; display: block; padding-bottom: 5px;} span {display: none;}} 
+@media only screen and (max-width: 600px) {nav a {width:100%; display: block; padding-bottom: 5px;} span {display: none;}} 
