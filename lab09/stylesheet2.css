@@ -31,3 +31,7 @@ img {float: right}
 .email {float: right;}
 
 .originalimage {max-width: 100%;}
+.mapandform {flex-wrap: 50%;}
+
+/* Extra small devices (phones, 600px and down) */ 
+@media only screen and (max-width: 750px) {nav a {width:100%; display: block; padding-bottom: 5px;} span {display: none;}} 
