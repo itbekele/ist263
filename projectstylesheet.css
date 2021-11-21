@@ -21,4 +21,4 @@ font-weight: bold;}
 .banner {padding: 15px;}
 .container2 {padding: 20px;}
 .container2 {justify-content: space-between;}
-@media only screen and (max-width:600px) {.container {flex-wrap: wrap;}}  
+@media only screen and (max-width:600px) {.container {flex-wrap: wrap;} .body {justify-content: space-evenly;}}  
