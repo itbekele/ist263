@@ -1,0 +1,24 @@
+.image {max-width: 100%;}
+.header {font-family: 'Lobster', cursive;}
+.nav {font-family: 'Lobster', cursive;}
+.nav {font-weight: bolder;}
+.container {display: flex;}
+.body {float: right;}
+.body {line-height: 3;}
+.body {font-size: large;}
+.container {padding: 10px;}
+.image {padding: 15px;}
+.logo {float: right;}
+body {background-color: #EDF9AA;}
+.container2 {display: flex;}
+.container2 {align-items: center;
+justify-content: center;
+}
+.banner {background-color: rgb(180, 218, 219);
+text-align: center;
+font-weight: bold;}
+.banner {font-family: 'Lobster', cursive;}
+.banner {padding: 15px;}
+.container2 {padding: 20px;}
+.container2 {justify-content: space-between;}
+@media only screen and (max-width:600px) {.container {flex-wrap: wrap;}} 
