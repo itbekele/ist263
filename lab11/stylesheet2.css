@@ -5,8 +5,11 @@ body {
 
 }
 h1 { 
-    color: #091353
-}
+    color: #091353; 
+    font-family: 'Elsie Swash Caps', cursive;
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-family: 'Ribeye', cursive;
+} 
 
 text { 
     color: #191A19 
