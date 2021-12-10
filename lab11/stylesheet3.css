@@ -1,0 +1,44 @@
+body { 
+    color: #030b30; 
+    background-color: #BCCC91;
+    font-size: 1em;
+
+}
+h1 { 
+    color: #091353; 
+    font-family: 'Elsie Swash Caps', cursive;
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-family: 'Ribeye', cursive;
+} 
+
+text { 
+    color: #191A19 
+}
+link { 
+    color: #091313;
+}
+nav { 
+    color: #091353;
+    background-color:#BCCC91 ;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+nav a { 
+    color: #000000;
+}
+nav a:hover {background-color: #C37B89;}
+
+.quote {float: right} 
+
+img {float: right} 
+
+.email {float: right;}
+
+.originalimage {max-width: 100%;}
+.mapandform {flex-wrap: 50%;}
+#skip:focus {
+    left: 10px;
+}
+
+@media only screen and (max-width: 600px) {nav a {width:100%; display: block; padding-bottom: 5px;} span {display: none;}} 
