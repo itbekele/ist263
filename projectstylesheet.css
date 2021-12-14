@@ -5,7 +5,9 @@
 .nav {font-weight: bolder;}
 .container {display: flex;}
 .body {float: right;}
-.body {line-height: 3;}
+.body {line-height: 3px;}
+.body {padding: 15px;}
+.body {margin-bottom: 15px;}
 .body {font-size: large;}
 .container {padding: 15px;}
 .container {margin-bottom: 15px;}
